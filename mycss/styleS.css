@@ -1,0 +1,124 @@
+ /* Общие стили */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+  }
+  /* Верхняя часть шапки (Top Header) */
+  .top-header {
+    background-color: rgba(97, 76, 76, 0.616);
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  .top-header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  /* Средняя часть шапки (Header Middle)*/
+  .header-middle {
+    background-color: #fef5f5;
+    padding: 15px 0;
+  }
+  .header-middle .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .header-middle .logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .header-middle .city-info {
+    text-align: center;
+  }
+  .header-middle .city-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  .header-middle .search input {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    color: #333;
+  }
+  .header-middle .icons {
+    display: flex;
+    gap: 20px;
+  }
+  .header-middle .icons a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+  }
+  .header-middle .icons a img {
+    width: 32px;
+    height: 32px;
+  }
+  /* Нижняя часть шапки (Header Bottom) - используем цвета из вашего CSS */
+  .header-bottom {
+    background-color: #f8d8d8;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .header-bottom nav {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .header-bottom nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+  }
+  .header-bottom nav ul li {
+    position: relative;
+  }
+  .header-bottom nav ul li a {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    transition: background 0.3s;
+  }
+  .header-bottom nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  .header-bottom nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    list-style: none;
+    padding: 10px;
+    z-index: 1000;
+  }
+  .header-bottom nav ul li:hover ul {
+    display: block;
+  }
+  .header-bottom nav ul li ul li a {
+    padding: 5px 15px;
+  }
+  /* Дополнительные стили для футера (если нужно) */
+  .footer {
+    background-color: #356b11b5;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
